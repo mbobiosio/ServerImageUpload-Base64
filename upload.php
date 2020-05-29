@@ -2,8 +2,7 @@
 include "config.php";
 
 
-if($_SERVER['REQUEST_METHOD'] == 'POST')
-{
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
  
  $title = $_POST['title'];
  $image = $_POST['image'];
